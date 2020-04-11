@@ -25,3 +25,5 @@ const server = new GraphQLServer({
 server.start(() => {
   console.log("connected to server");
 });
+
+console.log("hey there");
